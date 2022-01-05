@@ -1,7 +1,0 @@
-{
-  "output": "generated/timelock.",
-  "chain": "mainnet",
-  "datasources": [
-    { "module": "timelock" }
-  ]
-}

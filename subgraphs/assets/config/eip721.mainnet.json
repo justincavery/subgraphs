@@ -1,0 +1,10 @@
+{
+    "output": "generated/eip721.mainnet.",
+    "chain": "mainnet",
+    "datasources": [
+        {
+            "startBlock": 5806610,
+            "module": "erc721"
+        }
+    ]
+}

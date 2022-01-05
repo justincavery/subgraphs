@@ -1,9 +1,0 @@
-{
-  "output": "generated/accesscontrol.",
-  "chain": "mainnet",
-  "datasources": [
-    { "startBlock": 2926212, "module": "ownable"        },
-    { "startBlock": 5375569, "module": "erc1967upgrade" },
-    { "startBlock": 9857098, "module": "accesscontrol"  }
-  ]
-}

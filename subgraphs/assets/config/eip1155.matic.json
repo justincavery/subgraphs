@@ -1,0 +1,7 @@
+{
+  "output": "generated/eip1155.matic.",
+  "chain": "matic",
+  "datasources": [
+    { "module": "erc1155" }
+  ]
+}

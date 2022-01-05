@@ -1,0 +1,27 @@
+{
+  "name": "@quantumlyy/subgraphs-assets",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nejc Drobnič <yo@quantumly.dev>",
+  "license": "MIT",
+  "homepage": "https://github.com/quantumlyy/subgraphs.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantumlyy/subgraphs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quantumlyy/subgraphs.git/issues"
+  },
+  "scripts": {
+    "prepare": "scripts/prepare.sh",
+    "build": "scripts/build.sh generated/*.subgraph.yaml"
+  },
+  "dependencies": {
+    "@amxx/graphprotocol-utils": "^1.1.0-alpha.1",
+    "@openzeppelin/subgraphs": "0.1.6"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.24.0",
+    "@graphprotocol/graph-ts": "^0.24.0"
+  }
+}

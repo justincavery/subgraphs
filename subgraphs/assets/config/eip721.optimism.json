@@ -1,0 +1,7 @@
+{
+  "output": "generated/eip721.optimism.",
+  "chain": "optimism",
+  "datasources": [
+    { "module": "erc721" }
+  ]
+}

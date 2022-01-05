@@ -1,0 +1,7 @@
+{
+  "output": "generated/eip721.matic.",
+  "chain": "matic",
+  "datasources": [
+    { "module": "erc721" }
+  ]
+}

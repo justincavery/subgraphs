@@ -1,0 +1,7 @@
+{
+  "output": "generated/eip721.boba.",
+  "chain": "boba",
+  "datasources": [
+    { "module": "erc721" }
+  ]
+}

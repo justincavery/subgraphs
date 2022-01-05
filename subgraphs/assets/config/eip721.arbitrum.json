@@ -1,0 +1,7 @@
+{
+  "output": "generated/eip721.arbitrum.",
+  "chain": "arbitrum-one",
+  "datasources": [
+    { "module": "erc721" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "output": "generated/eip721.fantom.",
+  "chain": "fantom",
+  "datasources": [
+    { "module": "erc721" }
+  ]
+}

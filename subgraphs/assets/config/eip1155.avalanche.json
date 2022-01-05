@@ -1,0 +1,7 @@
+{
+  "output": "generated/eip1155.avalanche.",
+  "chain": "avalanche",
+  "datasources": [
+    { "module": "erc1155" }
+  ]
+}
