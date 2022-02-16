@@ -1,0 +1,26 @@
+{
+  "output": "generated/kgf.vault.mainnet.",
+  "chain": "mainnet",
+  "datasources": [
+    {
+      "address": "0x6bE69b2A9B153737887CfcdCa7781eD1511C7e36",
+      "startBlock": 14058641,
+      "module": ["erc721"]
+    },
+    {
+      "address": "0xF373a10d21cc4a9f84421c69Ec2D9528B6162012",
+      "startBlock": 14102123,
+      "module": ["erc20"]
+    },
+    {
+      "address": "0xa183014CEf1Dfc81CB3FD1dd2cE2eA1380FD983d",
+      "startBlock": 14102123,
+      "module": ["erc20"]
+    },
+    {
+      "address": "0x1626b2cFd72dd0f8c12c3b70f4fF70fd09B63333",
+      "startBlock": 14102123,
+      "module": ["erc20"]
+    }
+  ]
+}
