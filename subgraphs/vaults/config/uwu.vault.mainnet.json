@@ -1,0 +1,26 @@
+{
+  "output": "generated/uwu.vault.mainnet.",
+  "chain": "mainnet",
+  "datasources": [
+    {
+      "address": "0xF75140376D246D8B1E5B8a48E3f00772468b3c0c",
+      "startBlock": 13098352,
+      "module": ["erc721"]
+    },
+    {
+      "address": "0x5cE188B44266c7B4bbC67Afa3D16b2eB24eD1065",
+      "startBlock": 13169749,
+      "module": ["erc20"]
+    },
+    {
+      "address": "0x65879e73AeCfC8A1Cc7FE44a2FFb3392721e5652",
+      "startBlock": 14043611,
+      "module": ["erc20"]
+    },
+    {
+      "address": "0x3D76622E4bb64c32DDC034776236137695d5b9FD",
+      "startBlock": 13169749,
+      "module": ["erc20"]
+    }
+  ]
+}
