@@ -1,0 +1,26 @@
+{
+  "output": "generated/waifu.vault.mainnet.",
+  "chain": "mainnet",
+  "datasources": [
+    {
+      "address": "0x2216d47494E516d8206B70FCa8585820eD3C4946",
+      "startBlock": 11950539,
+      "module": ["erc721"]
+    },
+    {
+      "address": "0xE7F4c89032A2488D327323548AB0459676269331",
+      "startBlock": 12676924,
+      "module": ["erc20"]
+    },
+    {
+      "address": "0xb91BcA4c6a607448a093803B3b2A9a4ed3E9F71e",
+      "startBlock": 14043611,
+      "module": ["erc20"]
+    },
+    {
+      "address": "0x77655099f72484FA7d8CD701112c129b35b6Ca6a",
+      "startBlock": 13169749,
+      "module": ["erc20"]
+    }
+  ]
+}
