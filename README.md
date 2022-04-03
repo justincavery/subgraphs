@@ -17,6 +17,6 @@
    - [Fantom EIP1155](https://thegraph.com/hosted-service/subgraph/quantumlyy/eip1155-subgraph-fantom)
    - [Avalanche EIP721](https://thegraph.com/hosted-service/subgraph/quantumlyy/eip721-subgraph-avalanche)
    - [Avalanche EIP1155](https://thegraph.com/hosted-service/subgraph/quantumlyy/eip1155-subgraph-avalanche)
-   - [Boba EIP721](https://graph.mainnet.boba.network:8000/subgraphs/name/shibui/eip721-subgraph-boba)
+   - [Boba EIP721](https://thegraph.com/hosted-service/subgraph/quantumlyy/eip721-subgraph-boba)
    - [Boba Rinkeby EIP721](https://graph.rinkeby.boba.network:8000/subgraphs/name/shibui/eip721-subgraph-boba)
-   - [Boba EIP1155](https://graph.mainnet.boba.network:8000/subgraphs/name/quantumlyy/eip1155-subgraph-boba)
+   - [Boba EIP1155](https://thegraph.com/hosted-service/subgraph/quantumlyy/eip1155-subgraph-boba)
