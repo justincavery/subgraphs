@@ -46,6 +46,8 @@
     "deploy:assets:optimism:eip1155": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip1155.optimism DEPLOY_NAME=quantumlyy/eip1155-subgraph-optimism && yarn deploy:action_chain)",
     "deploy:vaults:mainnet:kgf": "(export SUBGRAPH_CATEGORY=vaults SUBGRAPH_NAME=kgf.vault.mainnet DEPLOY_NAME=quantumlyy/kgf-nftx-vault-subgraph-mainnet && yarn deploy:action_chain)",
     "deploy:vaults:mainnet:uwu": "(export SUBGRAPH_CATEGORY=vaults SUBGRAPH_NAME=uwu.vault.mainnet DEPLOY_NAME=quantumlyy/uwu-nftx-vault-subgraph-mainnet && yarn deploy:action_chain)",
-    "deploy:vaults:mainnet:waifu": "(export SUBGRAPH_CATEGORY=vaults SUBGRAPH_NAME=waifu.vault.mainnet DEPLOY_NAME=quantumlyy/waifu-nftx-vault-subgraph-mainnet && yarn deploy:action_chain)"
+    "deploy:vaults:mainnet:waifu": "(export SUBGRAPH_CATEGORY=vaults SUBGRAPH_NAME=waifu.vault.mainnet DEPLOY_NAME=quantumlyy/waifu-nftx-vault-subgraph-mainnet && yarn deploy:action_chain)",
+    "deploy:extras:matic:lamps": "(export SUBGRAPH_CATEGORY=extras SUBGRAPH_NAME=lamp.extras.matic DEPLOY_NAME=quantumlyy/personalamps-extras-subgraph-matic && yarn deploy:action_chain)",
+    "deploy:extras:matic:kgf": "(export SUBGRAPH_CATEGORY=extras SUBGRAPH_NAME=kgf.extras.matic DEPLOY_NAME=quantumlyy/killergf-extras-subgraph-matic && yarn deploy:action_chain)"
   }
 }

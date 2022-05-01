@@ -1,6 +1,7 @@
 subgraphs/*
 !subgraphs/assets
 !subgraphs/vaults
+!subgraphs/extras
 
 node_modules
 artifacts

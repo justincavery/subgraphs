@@ -1,0 +1,11 @@
+{
+  "output": "generated/lamp.extras.matic.",
+  "chain": "matic",
+  "datasources": [
+    {
+      "address": "0xA3B041eE6b56BCcBc54A3048417d82Fe67736F62",
+      "startBlock": 26294991,
+      "module": ["erc1155"]
+    }
+  ]
+}

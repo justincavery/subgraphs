@@ -1,0 +1,11 @@
+{
+  "output": "generated/kgf.extras.matic.",
+  "chain": "matic",
+  "datasources": [
+    {
+      "address": "0x004097675a293be8d538258ad1a6e561304048f1",
+      "startBlock": 25066498,
+      "module": ["erc1155"]
+    }
+  ]
+}
