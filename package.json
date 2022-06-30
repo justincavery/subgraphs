@@ -25,11 +25,11 @@
     "colors": "1.4.0"
   },
   "scripts": {
-    "prepare": "yarn graph-compiler --config subgraphs/$SUBGRAPH_CATEGORY/config/$SUBGRAPH_NAME.json --include node_modules/@openzeppelin/subgraphs/src/datasources --export-schema --export-subgraph",
+    "prep_comp": "yarn graph-compiler --config subgraphs/$SUBGRAPH_CATEGORY/config/$SUBGRAPH_NAME.json --include node_modules/@openzeppelin/subgraphs/src/datasources --export-schema --export-subgraph",
     "codegen": "yarn graph codegen generated/$SUBGRAPH_NAME.subgraph.yaml",
     "build": "yarn graph build generated/$SUBGRAPH_NAME.subgraph.yaml",
     "deploy": "yarn graph deploy --product hosted-service $DEPLOY_NAME generated/$SUBGRAPH_NAME.subgraph.yaml",
-    "deploy:action_chain": "yarn prepare && yarn codegen && yarn build && yarn deploy",
+    "deploy:action_chain": "yarn prep_comp && yarn codegen && yarn build && yarn deploy",
     "deploy:assets:arbitrum:eip721": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip721.arbitrum DEPLOY_NAME=quantumlyy/eip721-subgraph-arbitrum && yarn deploy:action_chain)",
     "deploy:assets:arbitrum:eip1155": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip1155.arbitrum DEPLOY_NAME=quantumlyy/eip1155-subgraph-arbitrum && yarn deploy:action_chain)",
     "deploy:assets:avalanche:eip721": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip721.avalanche DEPLOY_NAME=quantumlyy/eip721-subgraph-avalanche && yarn deploy:action_chain)",
