@@ -39,6 +39,7 @@
     "deploy:assets:fantom:eip721": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip721.fantom DEPLOY_NAME=quantumlyy/eip721-subgraph-fantom && yarn deploy:action_chain)",
     "deploy:assets:fantom:eip1155": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip1155.fantom DEPLOY_NAME=quantumlyy/eip1155-subgraph-fantom && yarn deploy:action_chain)",
     "deploy:assets:mainnet:eip721": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip721.mainnet DEPLOY_NAME=quantumlyy/eip721-subgraph-mainnet && yarn deploy:action_chain)",
+    "deploy:assets:goerli:eip721": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip721.goerli DEPLOY_NAME=nftx-hosted/eip721-subgraph-goerli && yarn deploy:action_chain)",
     "deploy:assets:mainnet:eip1155": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip1155.mainnet DEPLOY_NAME=quantumlyy/eip1155-subgraph-mainnet && yarn deploy:action_chain)",
     "deploy:assets:matic:eip721": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip721.matic DEPLOY_NAME=quantumlyy/eip721-subgraph-matic && yarn deploy:action_chain)",
     "deploy:assets:matic:eip1155": "(export SUBGRAPH_CATEGORY=assets SUBGRAPH_NAME=eip1155.matic DEPLOY_NAME=quantumlyy/eip1155-subgraph-matic && yarn deploy:action_chain)",
